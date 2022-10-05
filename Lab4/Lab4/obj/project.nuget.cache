@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ezlDqM3dJ3AFWkBFUNzG5hKBtCrENRdfqssybleUZ+Rghh/G8UwCX0C8AfQFU/dBoBwzM7UJ2Yaetxcfcx8zkQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sashamark\\source\\repos\\Lab4\\Lab4\\Lab4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sashamark\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
