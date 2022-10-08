@@ -1,0 +1,16 @@
+C:\SourceTree\OOP\Lab6\Lab6\bin\Debug\net5.0\Lab6.exe
+C:\SourceTree\OOP\Lab6\Lab6\bin\Debug\net5.0\Lab6.deps.json
+C:\SourceTree\OOP\Lab6\Lab6\bin\Debug\net5.0\Lab6.runtimeconfig.json
+C:\SourceTree\OOP\Lab6\Lab6\bin\Debug\net5.0\Lab6.runtimeconfig.dev.json
+C:\SourceTree\OOP\Lab6\Lab6\bin\Debug\net5.0\Lab6.dll
+C:\SourceTree\OOP\Lab6\Lab6\bin\Debug\net5.0\ref\Lab6.dll
+C:\SourceTree\OOP\Lab6\Lab6\bin\Debug\net5.0\Lab6.pdb
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\Lab6.csproj.AssemblyReference.cache
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\Lab6.AssemblyInfoInputs.cache
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\Lab6.AssemblyInfo.cs
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\Lab6.csproj.CoreCompileInputs.cache
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\Lab6.dll
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\ref\Lab6.dll
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\Lab6.pdb
+C:\SourceTree\OOP\Lab6\Lab6\obj\Debug\net5.0\Lab6.genruntimeconfig.cache
