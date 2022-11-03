@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Sashamark\\.nuget\\packages\\": {}
+    "C:\\Users\\sasha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SourceTree\\OOP\\Lab6\\Lab6\\Lab6.csproj",
+      "projectUniqueName": "C:\\Repositories\\C_Sharp_OOP\\Lab6\\Lab6\\Lab6.csproj",
       "projectName": "Lab6",
-      "projectPath": "C:\\SourceTree\\OOP\\Lab6\\Lab6\\Lab6.csproj",
-      "packagesPath": "C:\\Users\\Sashamark\\.nuget\\packages\\",
-      "outputPath": "C:\\SourceTree\\OOP\\Lab6\\Lab6\\obj\\",
+      "projectPath": "C:\\Repositories\\C_Sharp_OOP\\Lab6\\Lab6\\Lab6.csproj",
+      "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+      "outputPath": "C:\\Repositories\\C_Sharp_OOP\\Lab6\\Lab6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sashamark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,14 +51,27 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -66,7 +79,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
