@@ -94,17 +94,7 @@
 
         private static List<Car> SearchCarByParameters(string parameters, List<Car> cars)
         {
-            var carsByParameters = new List<Car>();
-            foreach (var car in cars)
-            {
-                if (parameters == car.BrandCar || parameters == car.ColorCar || parameters == car.SpeedCar ||
-                    parameters == car.YearManufactureCar)
-                {
-                    carsByParameters.Add(car);
-                }
-            }
-
-            return carsByParameters;
+            return cars.Where(car => parameters == car.BrandCar || parameters == car.ColorCar || parameters == car.SpeedCar || parameters == car.YearManufactureCar).ToList();
         }
     }
 }
