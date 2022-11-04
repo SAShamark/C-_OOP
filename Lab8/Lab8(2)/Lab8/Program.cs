@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Lab8
+{
+    public static class Program
+    {
+        private static void Main()
+        {
 
-Console.WriteLine("Hello, World!");
+        }
+    }
+}
