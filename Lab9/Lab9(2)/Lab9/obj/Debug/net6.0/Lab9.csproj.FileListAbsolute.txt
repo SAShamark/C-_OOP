@@ -1,0 +1,15 @@
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\bin\Debug\net6.0\Lab9.exe
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\bin\Debug\net6.0\Lab9.deps.json
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\bin\Debug\net6.0\Lab9.runtimeconfig.json
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\bin\Debug\net6.0\Lab9.dll
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\bin\Debug\net6.0\Lab9.pdb
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\Lab9.csproj.AssemblyReference.cache
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\Lab9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\Lab9.AssemblyInfoInputs.cache
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\Lab9.AssemblyInfo.cs
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\Lab9.csproj.CoreCompileInputs.cache
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\Lab9.dll
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\refint\Lab9.dll
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\Lab9.pdb
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\Lab9.genruntimeconfig.cache
+C:\Repositories\C_Sharp_OOP\Lab9\Lab9(2)\Lab9\obj\Debug\net6.0\ref\Lab9.dll
