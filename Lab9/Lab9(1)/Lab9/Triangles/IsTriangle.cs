@@ -9,9 +9,9 @@ public class IsTriangle : Triangle
     public override int SideLength { get; set; }
     public override int OtherSideLength { get; set; }
     public override int AngleBetweenSides { get; set; }
+    public override double TriangleArea { get; set; }
+    public override double TrianglePerimeter { get; set; }
 
-    public double TriangleArea { get; private set; }
-    public double TrianglePerimeter { get; private set; }
 
     public IsTriangle(string name)
     {

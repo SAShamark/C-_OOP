@@ -13,6 +13,8 @@ public abstract class Triangle
     public abstract int OtherSideLength { get; set; }
 
     public abstract int AngleBetweenSides { get; set; }
+    public abstract double TriangleArea { get; set; }
+    public abstract double TrianglePerimeter { get; set; }
 
     protected Color GetRandomColor()
     {
