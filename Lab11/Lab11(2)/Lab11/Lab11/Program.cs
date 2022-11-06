@@ -8,76 +8,94 @@
         {
             var students = new List<Student>
             {
-                new Student("Qafnir", "Albeck", Random.Next(1, 50)),
-                new Student("Aafnir", "Blbeck", Random.Next(1, 50)),
-                new Student("Bafnir", "Vlbeck", Random.Next(1, 50)),
-                new Student("Cafnir", "Clbeck", Random.Next(1, 50)),
+                new Student("Qafnir", "Ak", Random.Next(1, 50)),
+                new Student("Andrew", "Blbeck", Random.Next(1, 50)),
+                new Student("Andrew", "Vlbeck", Random.Next(1, 50)),
+                new Student("Andrew", "Clbeck", Random.Next(1, 50)),
                 new Student("Dafnir", "Dlbeck", Random.Next(1, 50)),
-                new Student("Eafnir", "Elbeck", Random.Next(1, 50)),
-                new Student("Fafnir", "Flbeck", Random.Next(1, 50)),
-                new Student("Gafnir", "Glbeck", Random.Next(1, 50)),
-                new Student("Hafnir", "Hlbeck", Random.Next(1, 50)),
-                new Student("Iafnir", "Ilbeck", Random.Next(1, 50))
+                new Student("Eafnir", "Troelsen", Random.Next(1, 50)),
+                new Student("Aafnir", "Flbeck", Random.Next(1, 50)),
+                new Student("Gafnir", "Troelsen", Random.Next(1, 50)),
+                new Student("Aafnir", "Troelsen", Random.Next(1, 50)),
+                new Student("Iafnir", "Troelsen", Random.Next(1, 50))
             };
 
+            SelectionOfStudentsType1(students);
+            SelectionOfStudentsType2(students);
+        }
+
+        private static void SelectionOfStudentsType1(List<Student> students)
+        {
             bool StudentPredicateDelegateAge(Student student)
             {
-                return student.CheckAge();
+                return student.CheckAge(18, int.MaxValue);
             }
 
-            bool StudentPredicateDelegateFirstName(Student student)
+            bool StudentPredicateDelegateFirstNameFirstLatter(Student student)
             {
-                return student.CheckAge();
+                return student.CheckFirstNameFirstLetter('A');
             }
 
             bool StudentPredicateDelegateLastName(Student student)
             {
-                return student.CheckAge();
+                return student.CheckLastNameLenght(3);
+            }
+
+            var studentsAge = Extension.FindStudent(students, StudentPredicateDelegateAge);
+            var studentsFirstName = Extension.FindStudent(students, StudentPredicateDelegateFirstNameFirstLatter);
+            var studentsLastName = Extension.FindStudent(students, StudentPredicateDelegateLastName);
+            PrintInfoAboutStudents(studentsAge, studentsFirstName, studentsLastName);
+        }
+
+        private static void SelectionOfStudentsType2(List<Student> students)
+        {
+            bool StudentPredicateDelegateAge(Student student)
+            {
+                return student.CheckAge(20, 25);
+            }
+
+            bool StudentPredicateDelegateFirstName(Student student)
+            {
+                return student.CheckAllFirstName("Andrew");
+            }
+
+            bool StudentPredicateDelegateLastName(Student student)
+            {
+                return student.CheckAllLastName("Troelsen");
             }
 
             var studentsAge = Extension.FindStudent(students, StudentPredicateDelegateAge);
             var studentsFirstName = Extension.FindStudent(students, StudentPredicateDelegateFirstName);
             var studentsLastName = Extension.FindStudent(students, StudentPredicateDelegateLastName);
+
+            PrintInfoAboutStudents(studentsAge, studentsFirstName, studentsLastName);
         }
 
-        private static void DisplayInformation(List<Student> students)
+        private static void PrintInfoAboutStudents(List<Student> studentsAge, List<Student> studentsFirstName,
+            List<Student> studentsLastName)
         {
-            foreach (var student in students)
+            for (int i = 0; i < studentsAge.Count; i++)
             {
-                Console.WriteLine(student.Age);
+                var student = studentsAge[i];
+                Console.WriteLine(i + "- Age: " + student.Age);
             }
-        }
-    }
 
-    public class Student
-    {
-        public string FirstName { get; }
-        public string LastName { get; }
-        public int Age { get; }
+            Console.WriteLine();
+            for (int i = 0; i < studentsFirstName.Count; i++)
+            {
+                var student = studentsFirstName[i];
+                Console.WriteLine(i + "- First name: " + student.FirstName);
+            }
 
-        public delegate bool StudentPredicateDelegate(Student student);
+            Console.WriteLine();
 
+            for (int i = 0; i < studentsLastName.Count; i++)
+            {
+                var student = studentsLastName[i];
+                Console.WriteLine(i + "- Last name: " + student.LastName);
+            }
 
-        public Student(string firstName, string lastName, int age)
-        {
-            FirstName = firstName;
-            LastName = lastName;
-            Age = age;
-        }
-
-        public bool CheckAge()
-        {
-            return Age >= 18;
-        }
-
-        public bool CheckFirstName()
-        {
-            return FirstName.IndexOf("А") == 0;
-        }
-
-        public bool CheckLastName()
-        {
-            return LastName.Length > 3;
+            Console.WriteLine();
         }
     }
 }

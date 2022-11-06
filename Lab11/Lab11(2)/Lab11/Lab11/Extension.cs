@@ -2,21 +2,20 @@ namespace Lab11
 {
     public static class Extension
     {
-        private static readonly List<Student> Students = new();
-
         public static List<Student> FindStudent(List<Student> students,
             Student.StudentPredicateDelegate studentPredicateDelegate)
         {
+            List<Student> findStudent = new();
             foreach (var student in students)
             {
                 bool result = studentPredicateDelegate.Invoke(student);
                 if (result)
                 {
-                    Students.Add(student);
+                    findStudent.Add(student);
                 }
             }
 
-            return Students;
+            return findStudent;
         }
     }
 }
