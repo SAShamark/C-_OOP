@@ -1,0 +1,15 @@
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\bin\Debug\net6.0\Lab10.exe
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\bin\Debug\net6.0\Lab10.deps.json
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\bin\Debug\net6.0\Lab10.runtimeconfig.json
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\bin\Debug\net6.0\Lab10.dll
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\bin\Debug\net6.0\Lab10.pdb
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\Lab10.csproj.AssemblyReference.cache
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\Lab10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\Lab10.AssemblyInfoInputs.cache
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\Lab10.AssemblyInfo.cs
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\Lab10.csproj.CoreCompileInputs.cache
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\Lab10.dll
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\refint\Lab10.dll
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\Lab10.pdb
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\Lab10.genruntimeconfig.cache
+C:\Repositories\C_Sharp_OOP\Lab10\Lab10\obj\Debug\net6.0\ref\Lab10.dll
