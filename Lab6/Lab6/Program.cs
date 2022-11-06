@@ -13,7 +13,7 @@ namespace Lab6
             //Console.WriteLine(ReverseDouble(354.13));
             //Console.WriteLine(MagicReverse("354.13",'.'));
 
-            string[] strings = { "saf", "agfa", "fahs", "hse" };
+            //string[] strings = { "saf", "agfa", "fahs", "hse" };
             //UniversalReverser(strings);
             //ReverserArray(strings);
 
@@ -25,14 +25,14 @@ namespace Lab6
                 4
             };
 
-            Console.WriteLine(ints.Count);
-            SizeArrayChanger(ref ints, 6);
+            Console.WriteLine($"List count: {ints.Count}");
+            SizeArrayChanger(ref ints, 2);
         }
 
         //1111
         private static int ReverseInt(int value)
         {
-            var result = 0;
+            int result = 0;
             while (value > 0)
             {
                 result = result * 10 + value % 10;
@@ -47,7 +47,7 @@ namespace Lab6
         private static string ReverseString(string value)
         {
             string result = string.Empty;
-            for (var i = value.Length - 1; i > -1; i--)
+            for (int i = value.Length - 1; i > -1; i--)
             {
                 result += value[i];
             }
@@ -62,9 +62,9 @@ namespace Lab6
             string[] stringArray = value.ToString().Split(',');
             string result = string.Empty;
 
-            foreach (var i in stringArray)
+            foreach (string i in stringArray)
             {
-                var temp = int.Parse(i);
+                int temp = int.Parse(i);
                 while (temp != 0)
                 {
                     result += temp % 10;
@@ -84,7 +84,7 @@ namespace Lab6
         {
             string[] stringArray = value.Split(magicSign);
             string result = string.Empty;
-            foreach (var i in stringArray)
+            foreach (string i in stringArray)
             {
                 result += ReverseString(i) + magicSign;
             }
@@ -116,18 +116,25 @@ namespace Lab6
         //7777
 
         //8888
-        private static void SizeArrayChanger(ref List<int> array, int sizeValue)
+        private static void SizeArrayChanger(ref List<int> list, int sizeValue)
         {
-            if (array.Count < sizeValue)
+            if (list.Count < sizeValue)
             {
-                var countForNewElement = sizeValue - array.Count;
-                for (int i = 0; i < countForNewElement; i++)
+                int countForAddElement = sizeValue - list.Count;
+                for (int i = 0; i < countForAddElement; i++)
                 {
-                    array.Add(0);
+                    list.Add(0);
                 }
             }
-
-            Console.WriteLine(array.Count);
+            else if (list.Count > sizeValue)
+            {
+                int countForRemoveElement = list.Count - sizeValue;
+                for (int i = 0; i < countForRemoveElement; i++)
+                {
+                    list.Remove(list.Count);
+                }
+            }
+            Console.WriteLine($"List count: {list.Count}");
         }
         //8888
     }
