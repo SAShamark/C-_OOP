@@ -1,0 +1,15 @@
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\bin\Debug\net6.0\Lab11.exe
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\bin\Debug\net6.0\Lab11.deps.json
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\bin\Debug\net6.0\Lab11.runtimeconfig.json
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\bin\Debug\net6.0\Lab11.dll
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\bin\Debug\net6.0\Lab11.pdb
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\Lab11.csproj.AssemblyReference.cache
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\Lab11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\Lab11.AssemblyInfoInputs.cache
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\Lab11.AssemblyInfo.cs
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\Lab11.csproj.CoreCompileInputs.cache
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\Lab11.dll
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\refint\Lab11.dll
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\Lab11.pdb
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\Lab11.genruntimeconfig.cache
+C:\Repositories\C_Sharp_OOP\Lab11\Lab11(2)\Lab11\Lab11\obj\Debug\net6.0\ref\Lab11.dll
