@@ -2,12 +2,12 @@
 
 public class Car
 {
-    public string BrandCar { get; }
-    public string ColorCar { get; }
-    public string SpeedCar { get; }
-    public string YearManufactureCar { get; }
+    public string? BrandCar { get; }
+    public string? ColorCar { get; }
+    public string? SpeedCar { get; }
+    public string? YearManufactureCar { get; }
 
-    public Car(string brandCar, string colorCar, string speedCar, string yearManufactureCar)
+    public Car(string? brandCar, string? colorCar, string? speedCar, string? yearManufactureCar)
     {
         BrandCar = brandCar;
         ColorCar = colorCar;
