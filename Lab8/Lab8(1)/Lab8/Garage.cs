@@ -32,40 +32,35 @@ public class Garage
         }
     }
 
-    public void GetCarForDrive(List<Car> cars)
+    public void GetCarForDrive(List<Car> cars, string parameters)
     {
         while (true)
         {
-            Console.WriteLine("Enter the parameters of the car you want to drive");
-            string? parameters = Console.ReadLine();
-            if (parameters != null)
+            var carsByParameter = SearchCarByParameters(parameters, cars);
+
+            switch (carsByParameter.Count)
             {
-                var carsByParameter = SearchCarByParameters(parameters, cars);
-
-                switch (carsByParameter.Count)
+                case 0:
                 {
-                    case 0:
+                    Console.WriteLine("According to the entered parameters, the car was not found");
+                    continue;
+                }
+
+                case 1:
+                    Console.WriteLine("You take car: ");
+                    carsByParameter[0].GetCarData();
+                    Console.WriteLine("Have a nice trip!");
+                    break;
+                case >= 2:
+                {
+                    Console.WriteLine("Several machines were found according to the entered parameters:");
+                    foreach (var car in carsByParameter)
                     {
-                        Console.WriteLine("According to the entered parameters, the car was not found");
-                        continue;
+                        car.GetCarData();
                     }
 
-                    case 1:
-                        Console.WriteLine("You take car: ");
-                        carsByParameter[0].GetCarData();
-                        Console.WriteLine("Have a nice trip!");
-                        break;
-                    case >= 2:
-                    {
-                        Console.WriteLine("Several machines were found according to the entered parameters:");
-                        foreach (var car in carsByParameter)
-                        {
-                            car.GetCarData();
-                        }
-
-                        cars = carsByParameter;
-                        continue;
-                    }
+                    cars = carsByParameter;
+                    continue;
                 }
             }
 

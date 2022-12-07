@@ -22,7 +22,9 @@
                     break;
             }
 
-            garage.GetCarForDrive(garage.Cars);
+            Console.WriteLine("Enter the parameters of the car you want to drive");
+            string? parameters = Console.ReadLine();
+            if (parameters != null) garage.GetCarForDrive(garage.Cars, parameters);
         }
 
         private static void BuyCar(Garage garage)
