@@ -29,8 +29,6 @@
 
         private static void BuyCar(Garage garage)
         {
-            Console.WriteLine("By what index do you want to throw away the car?");
-
             Console.WriteLine("Chose car brand");
             string? carBrand = Console.ReadLine();
 
